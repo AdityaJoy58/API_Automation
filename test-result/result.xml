@@ -1,0 +1,30 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="A happy holidaymaker" tests="2" errors="0" failures="2" skipped="0" timestamp="2019-01-30T01:17:50" time="1.369">
+    <testcase classname="A happy holidaymaker" name="like to holiday in sydney" time="0.69">
+      <failure message="expected 200 &quot;OK&quot;, got 401 &quot;Unauthorized&quot;">    at Test._assertStatus (node_modules/supertest/lib/test.js:268:12)
+    at Test._assertFunction (node_modules/supertest/lib/test.js:283:11)
+    at Test.assert (node_modules/supertest/lib/test.js:173:18)
+    at localAssert (node_modules/supertest/lib/test.js:131:12)
+    at node_modules/supertest/lib/test.js:128:5
+    at Test.Request.callback (node_modules/superagent/lib/node/index.js:728:3)
+    at parser (node_modules/superagent/lib/node/index.js:916:18)
+    at IncomingMessage.res.on (node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at endReadableNT (_stream_readable.js:1045:12)
+    at _combinedTickCallback (internal/process/next_tick.js:102:11)
+    at process._tickCallback (internal/process/next_tick.js:161:9)</failure>
+    </testcase>
+    <testcase classname="A happy holidaymaker" name="like to holiday on Thursdays and the temperature is warmer than 10 degrees" time="0.672">
+      <failure message="expected 200 &quot;OK&quot;, got 401 &quot;Unauthorized&quot;">    at Test._assertStatus (node_modules/supertest/lib/test.js:268:12)
+    at Test._assertFunction (node_modules/supertest/lib/test.js:283:11)
+    at Test.assert (node_modules/supertest/lib/test.js:173:18)
+    at localAssert (node_modules/supertest/lib/test.js:131:12)
+    at node_modules/supertest/lib/test.js:128:5
+    at Test.Request.callback (node_modules/superagent/lib/node/index.js:728:3)
+    at parser (node_modules/superagent/lib/node/index.js:916:18)
+    at IncomingMessage.res.on (node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at endReadableNT (_stream_readable.js:1045:12)
+    at _combinedTickCallback (internal/process/next_tick.js:102:11)
+    at process._tickCallback (internal/process/next_tick.js:161:9)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
